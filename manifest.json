@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Volume Zones",
+  "version": "1.0.0",
+  "description": "Control the volume of individual Chrome tabs, including volume boosts above 100%.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "action": {
+    "default_title": "Volume Zones",
+    "default_popup": "popup.html"
+  }
+}
