@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Volume Zones</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+    }
+
+    h1 {
+      font-size: 22px;
+      margin-top: 0;
+    }
+
+    #site {
+      color: #aaa;
+      margin-bottom: 15px;
+      word-break: break-all;
+    }
+
+    input[type="range"] {
+      width: 100%;
+    }
+
+    #volume {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      margin: 15px 0;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>🔊 Volume Zones</h1>
+
+  <div id="site">Loading...</div>
+
+  <div id="volume">100%</div>
+
+  <input
+    type="range"
+    id="volumeSlider"
+    min="0"
+    max="600"
+    value="100"
+  >
+
+  <button id="reset">Reset to 100%</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
